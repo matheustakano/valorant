@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  width: auto;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+
+  background-color: black;
+}
+
+header {
+  width: 100vw;
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  color: white;
+
+  font-family: 'Raleway';
+  font-weight: 400;
+  background: transparent;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.purchase {
+  padding: 16px 30px 16px 30px;
+  border-radius: 15px;
+  border: transparent;
+  background-color: darkred;
+  color: white;
+  font-family: 'Poppins';
+  margin-right: 5px;
+}
+
+.view-more {
+  padding: 16px 30px 16px 30px;
+  border-radius: 15px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  font-family: 'Poppins';
+}
+
+.navbar li {
+  margin-left: 30px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.nav-buttons button {
+  background-color: transparent;
+  color: white;
+  border-width: 1.25px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 15px;
+  padding: 10px;
+  font-family: 'Raleway';
+  font-weight: bold;
+}
+
+.nav-buttons .special-button {
+  background-color: orange;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.section-one {
+  background-image: url(img/landingpage.jpg);
+  background-size: cover;
+  background-position: absolute;
+  min-height: calc(1000px - 320px);
+  width: 100vw;
+  opacity: 0.950;
+  color: white;
+  border-bottom: 1px solid grey;
+}
+
+.section-one div {
+  margin: 90px 0px 100px 100px;
+  position: absolute;
+}
+
+.section-one div h2 {
+  font-size: 60px;
+  font-family: 'Poppins';
+  font-weight: 400;
+  line-height: 60px;
+  margin-bottom: 15px;
+}
+
+.section-one div p {
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-family: 'Raleway';
+}
+
+.section-two {
+  background-image: url(https://i.pinimg.com/originals/e5/2d/57/e52d573ea72014060136bea750762d6e.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: absolute;
+  height: 600px;
+  color: white;
+}
+
+.section-two div {
+  margin: 120px 0px 100px 100px;
+  position: absolute;
+}
+
+.section-two div h2 {
+  font-size: 60px;
+  font-family: 'Poppins';
+  font-weight: 400;
+  line-height: 67px;
+  margin-bottom: 15px;
+}
+
+.section-two div p {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-family: 'Raleway';
+}
+
+.section-two .box {
+  width: 450px;
+  height: 340px;
+  position: absolute;
+  display: flex;
+
+  border: 1px solid darkred;
+  border-radius: 10px;
+
+  margin-left: 760px;
+}
+
+.section-two .box .back-box {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.section-two .box figure img {
+  width: 120px;
+}
+
+#controller {
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+#controller figcaption {
+  position: relative;
+  margin-left: 15px;
+  margin-top: 5px;
+  font-family: 'Raleway';
+  font-weight: bold;
+}
+
+#duelist {
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 40px;
+}
+
+#duelist figcaption {
+  position: relative;
+  margin-left: 25px;
+  margin-top: 5px;
+  font-family: 'Raleway';
+  font-weight: bold;
+}
+
+#initiator {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 280px;
+}
+
+#initiator figcaption{
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 7px;
+  font-family: 'Raleway';
+  font-weight: bold;
+}
+
+#sentinel {
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 280px;
+}
+
+#sentinel figcaption {
+  position: absolute;
+  margin-left: 25px;
+  margin-top: 7px;
+  font-family: 'Raleway';
+  font-weight: bold;
+}
+
+.section-three {
+  background-image: url(https://wallpaper.dog/large/20457309.png);
+  background-size: cover;
+  background-position: absolute;
+
+  height: 1020px;
+  color: white;
+}
+
+.section-three button {
+  position: relative;
+  margin-top: 940px;
+  margin-left: 570px;
+}
+
+.section-three .three {
+ position: absolute;
+ margin-left: 300px;
+ margin-top: 50px;
+}
+
+.section-three .three h1 {
+  font-size: 50px;
+  font-family: 'Poppins';
+}
+
+.section-three .three p {
+  font-size: 20px;
+  font-family: 'Raleway';
+  margin-left: 70px;
+}
+
+.section-three .three .bah {
+  padding-left: 60px;
+}
+
+.section-three .cards {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 120px;
+}
+
+.section-three .cards img {
+  position: relative;
+  width: 250px;
+}
+
+footer {
+  background-color: black;
+  height: 50px;
+  color: white;
+  margin-top: 35px;
+
+  text-align: center;
+}
+
+footer p {
+  font-family: 'Raleway';
+  text-decoration:underline;
+}
